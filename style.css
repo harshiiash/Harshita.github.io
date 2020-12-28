@@ -1,0 +1,45 @@
+ul{
+  position: relative;
+}
+#home, #about{
+  text-align: center;
+  padding: 40px;
+
+}
+ #experience,  #education, #skills, #project, #training, #social, #contact, #hobbies{
+  text-align: center;
+  padding-bottom: 40px;
+ 
+}
+#hobbies{
+  padding-bottom: 30vh;
+}
+ #social, #contact{
+height:40vh;
+padding-bottom: 40px;
+}
+#home img {
+  width: 200px;
+  border-radius: 50%;
+}
+#home h1 {
+  margin: 25px;
+}
+#education h1, #skills h1,#project h1, #training h1, #hobbies h1, #project h1, #contact h1, #experience h1, #soocial h1{
+  float: center;
+  padding-top:10px;
+  padding-bottom: 60px;
+  font-style: italic;
+  color:rgba(0, 0, 0, 0.685);
+  
+}
+#training, #hobbies, #social, #contact, #experience{
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  float:center;
+}
+.container .row dt dd{
+  border-style: content-box;
+  align-content: center;
+}
